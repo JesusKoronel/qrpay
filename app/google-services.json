@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "696024321268",
+    "project_id": "login-d2ffd",
+    "storage_bucket": "login-d2ffd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696024321268:android:07d2fe019be19d7726a2a1",
+        "android_client_info": {
+          "package_name": "com.example.pagos_online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696024321268-g4s03a8qboqdrahpgqeh9lr9rhchi4q5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy2iS6hYwGpPHhfY0sFdDK4v-U3dgYEP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696024321268-g4s03a8qboqdrahpgqeh9lr9rhchi4q5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">ONLIPAGA</string>
+    <string name="invalid_mail">Ingrese un correo electronico valido</string>
+    <string name="invalid_password">Ingrese una contraseña con mas de 8 digitos</string>
+
+</resources>

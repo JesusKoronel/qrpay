@@ -39,7 +39,6 @@ import static android.content.ContentValues.TAG;
 public class PasarDinero extends AppCompatActivity {
 
     private EditText ettexto;
-    private Button botongenerador;
     private ImageView verqr;
     FirebaseFirestore fires;
 
@@ -49,9 +48,7 @@ public class PasarDinero extends AppCompatActivity {
         setContentView(R.layout.activity_pasardinero);
 
         ettexto = findViewById(R.id.ettexto);
-        botongenerador = findViewById(R.id.botongenerador);
         verqr = findViewById(R.id.verqr);
-
         fires = FirebaseFirestore.getInstance();
     }
 

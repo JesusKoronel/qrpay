@@ -1,0 +1,14 @@
+
+P
+java:S2209 "5Change this instance-reference to a static reference.(•¾©Ðøÿÿÿÿ
+F
+java:S1172*"+Remove this unused method parameter "view".(È‘Íœûÿÿÿÿ
+A
+java:S1172="+Remove this unused method parameter "view".(®›÷Î
+F
+java:S1172B"+Remove this unused method parameter "view".(º˜Ù©ùÿÿÿÿ
+Q	java:S125Z"<This block of commented-out lines of code should be removed.(­µà‘
+>
+java:S1604/"(Make this anonymous inner class a lambda(¡ÅÑ­
+>
+java:S1604I"(Make this anonymous inner class a lambda(‚ÕÎ½

@@ -22,26 +22,21 @@ public class Escanear extends AppCompatActivity {
         StrictMode.setVmPolicy(builder.build());
 
         txt = findViewById(R.id.textView3);
-
         IntentIntegrator integrator = new IntentIntegrator(this);
         integrator.setPrompt("Apunta tu telefono al codigo QR");
         integrator.setOrientationLocked(false);
         integrator.setCaptureActivity(CaptureActivityPortrait.class);
         integrator.initiateScan();
-
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
         IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
         String codigo = result.getContents();
-
         Intent in = new Intent(this, Principal.class);
         in.putExtra("valorqr", codigo);
         startActivity(in);
         finish();
-
     }
 }

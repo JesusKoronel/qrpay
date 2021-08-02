@@ -1,0 +1,19 @@
+
+;
+java:S1659 "%Declare "etpass2" on a separate line.(”óÙ
+;
+java:S1659 "%Declare "etemail" on a separate line.(”óÙ
+k
+java:S1450!"URemove the "button" field and declare it as a local variable in the relevant methods.(ÈòÉ¹
+P
+java:S2209+"5Change this instance-reference to a static reference.(•¾©Ğøÿÿÿÿ
+M
+java:S11728"+Remove this unused method parameter "view".(¶ªÏ•ûÿÿÿÿ8ï›ûí¯/
+G
+java:S1172g"+Remove this unused method parameter "view".(›ºÑq8ù›ûí¯/
+J
+java:S1604E"(Make this anonymous inner class a lambda(Ïë£ùÿÿÿÿ8Œœûí¯/
+J
+java:S1604K"(Make this anonymous inner class a lambda(Ÿ ¹ÿÿÿÿÿ8Œœûí¯/
+E
+java:S1604R"(Make this anonymous inner class a lambda(íÒÏ‹8Œœûí¯/

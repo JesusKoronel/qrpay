@@ -15,7 +15,6 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -45,8 +44,8 @@ public class Principal extends AppCompatActivity {
         txt2.setText(name);
         Bundle extras1 = getIntent().getExtras();
         String d2 = extras1.getString("valorqr");
-
         fires.collection("cuentab").document(elcorreo).get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+
             @Override
             public void onSuccess(DocumentSnapshot documentSnapshot) {
                 if (documentSnapshot.exists()) {
@@ -87,7 +86,6 @@ public class Principal extends AppCompatActivity {
             }
         });
         tv1.setText(mail);
-
     }
 
     public void finalizar(View view) {
